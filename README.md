@@ -11,7 +11,7 @@ Zelf een visitekaartje ontworpen en gemaakt. Ik heb geleerdt werken volgens de m
 5. Testen
 
 >Bronen:
-[Icontjes](https://fontawesome.com/)
+-[Icontjes](https://fontawesome.com/)
 
 **Online link**
 https://duneyasaleh.github.io/your-tribe-profile-card/
