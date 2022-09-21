@@ -1,7 +1,7 @@
 /* * {
   box-sizing:border-box;
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Libre+Barcode+39+Extended+Text&display=swap');
 html {
   height:100vh;
 }
@@ -22,6 +22,7 @@ main {
   grid-template-columns: 1fr .25fr 1fr;
   grid-gap: .5em;
   background: navajowhite;
+  border-radius: 1em;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
  
 }
@@ -29,13 +30,19 @@ img{
   width: 100%;
 }
 h1 {
+  font-family: 'Kalam', cursive;
   margin:2rem 0 1rem;
   padding:0 1em;
   color: rgb(221, 0, 255);
+  font-size: 35px;
+}
+h2{
+  font-family: 'Kalam', cursive;
 }
 .mijinfo > li{
   list-style: none;
   padding: 1em 0;
+
 }
 .mijinfo > li::before{
  content: "\f04b";
@@ -66,6 +73,7 @@ h1 {
   margin: 1em;
   padding: 1em;
   border: 1em solid violet;
+  border-radius: 1em;
 
 }
 .pijl2 {
@@ -100,6 +108,7 @@ h1 {
   padding: .3em;
   color: navajowhite;
   font-size: 24px;
+  border-radius: 1em;
 }
 .socialbutton >ul > li >a:hover {
   background-color: cadetblue;
@@ -198,3 +207,7 @@ h1 {
   30% {-webkit-transform: scale(0.5); opacity: 1;}
   100% {opacity: 0; -webkit-transform: scale(1.5);}
 }
+/* @media screen and (max-width 768px){
+
+
+} */
