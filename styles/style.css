@@ -118,35 +118,6 @@ h2{
   font-size: 24px;
 }
 
-/* .divpijl2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4.5em 0;
-  position: relative;
- 
- }
-.fa_left-right{
-  font-size: 60px;
-  color: cadetblue;
-  bottom: 27px;
-  position: absolute;
-  margin-left: -18px;
-  animation-name:arrow2;
-  animation-duration:1s;
-  animation-timing-function:linear;
-  animation-delay:0s;
-  animation-iteration-count:infinite;
-  animation-direction:normal;
-  animation-play-state:running;
-  -webkit-animation-name:arrow2;
-  -webkit-animation-duration:1s;
-  -webkit-animation-timing-function:linear;
-  -webkit-animation-delay:0s;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-direction:normal;
-  -webkit-animation-play-state:running;
-} */
 .pulse {
 	margin: 0 auto;
 	border-radius: 100px;
@@ -164,9 +135,6 @@ h2{
 	-o-border-radius: 100px;
 	-ms-border-radius: 100px;
 	border-radius: 100px;
-	/* Giving Animation Function */
-	-webkit-animation: pulse 1s linear infinite 0.3s;
-	-moz-animation: pulse 1s linear infinite 0.3s; 
 	border-image: initial;
 }
 @keyframes arrow
@@ -207,7 +175,18 @@ h2{
   30% {-webkit-transform: scale(0.5); opacity: 1;}
   100% {opacity: 0; -webkit-transform: scale(1.5);}
 }
-/* @media screen and (max-width 768px){
+@media screen and (max-width: 60em){
+  body {
+    display:block;
+    background: transparent;
 
-
-} */
+  }
+  main{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .divpijl1{
+    display: none;
+  }
+}
